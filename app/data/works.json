@@ -1,0 +1,37 @@
+[
+  {
+    "title": "AnalyseTonProd'",
+    "description": "A modern web application built with React, TailwindCSS and WordPress as headless CMS",
+    "image": "/images/project1.jpg",
+    "technologies": ["React", "Tailwind CSS", "WordPress"],
+    "live": "https://www.analysetonprod.fr/"
+  },
+  {
+    "title": "Backers",
+    "description": "An e-commerce platform built with React, TailwindCSS and WordPress as headless CMS",
+    "image": "/images/project2.jpg",
+    "technologies": ["React", "Tailwind CSS", "WordPress"],
+    "live": "https://backers.fr/"
+  },
+  {
+    "title": "Stade français Paris",
+    "description": "Showcase website for the Paris rugby team built with WordPress",
+    "image": "/images/project4.jpg",
+    "technologies": ["WordPress", "API"],
+    "live": "https://www.stade.fr/"
+  },
+  {
+    "title": "La Boulangère",
+    "description": "An e-commerce platform built with WordPress and WooCommerce",
+    "image": "/images/project1.jpg",
+    "technologies": ["WordPress", "WooCommerce"],
+    "live": "https://www.laboulangere.com/"
+  },
+  {
+    "title": "Esthima & Horsia (Veternity)",
+    "description": "E-commerce platforms for animal end-of-life services built with WordPress",
+    "image": "/images/project3.jpg",
+    "technologies": ["WordPress", "WooCommerce", "Tailwind CSS"],
+    "live": "https://www.esthima.fr/"
+  }
+]
