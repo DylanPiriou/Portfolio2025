@@ -11,7 +11,7 @@ export default function Navbar() {
       <motion.nav initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: .6, delay: .6, ease: "easeOut" }}>
         <ul>
           {navbar.map((item, index) => (
-            <NavLink key={index} index={index} href={item.url}>{item.title}</NavLink>
+            <NavLink key={index} href={item.url}>{item.title}</NavLink>
           ))}
         </ul>
       </motion.nav>

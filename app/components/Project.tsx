@@ -3,7 +3,14 @@
 import React from 'react'
 import { motion } from 'motion/react'
 
-export default function Project({ project, index }: { project: any, index: number }) {
+interface ProjectProps {
+  title: string;
+  description: string;
+  live: string;
+  technologies: string[];
+}
+
+export default function Project({ project, index }: { project: ProjectProps, index: number }) {
     return (
         <motion.li 
             key={index} 
@@ -15,7 +22,7 @@ export default function Project({ project, index }: { project: any, index: numbe
             <h2 className="text-2xl font-bold"><a href={project.live} target="_blank" className="hover:underline">{project.title}</a></h2>
             <p>{project.description}</p>
             <div className="flex gap-2">
-                {project.technologies.map((tech: string, i: number) => (
+                {project.technologies.map((tech, i) => (
                     <span 
                         key={i} 
                         className="text-sm bg-gray-800 px-2 py-1 rounded"
