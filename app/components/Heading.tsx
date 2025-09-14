@@ -8,7 +8,7 @@ export default function Heading({ content }: { content: React.ReactNode }) {
     <motion.h1
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
-        transition={{ duration: .6, ease: "easeOut" }}
+        transition={{ duration: .8, delay: .2, ease: "easeOut" }}
         className="text-5xl md:text-6xl font-light my-14 font-instrument"
       >
         {content}

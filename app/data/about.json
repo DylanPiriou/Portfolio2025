@@ -1,5 +1,10 @@
 [
-    {
-        "content": "test"
-    }
+  {
+    "lang": "en",
+    "content": "<p>I am a creative and curious french <span>web developer</span> with a strong focus on building modern, minimalist, and user-friendly web experiences. I enjoy working with <span>React</span>, <span>Next.js</span>, <span>WordPress</span>, and headless solutions like <span>Strapi</span>, always looking for ways to make the web more elegant and accessible.</p><br /><p>My journey into development started few years ago with a fascination for how things work behind the scenes on the web. Over time, this <span>curiosity</span> turned into a <span>passion</span> and then a <span>career</span>. I started by learning the basics by my own, then I've been exploring <span>good practices</span>, <span>frameworks</span>, and constantly experimenting with new tools to refine my approach.</p><br /><p>Outside of programming, I'm passionate about <span>history</span> and <span>cinema</span>. I particularly enjoy <span>video games</span>, with a soft spot for strategy games and FPS. <span>Sports</span> also play a big role in my life: I practice running, CrossFit, and swimming to stay active and challenge myself.</p>"
+  },
+  {
+    "lang": "fr",
+    "content": "<p>Je suis un développeur web créatif et curieux français avec un fort accent mis sur la construction d'expériences web modernes, minimalistes et utilisateur-friendly. Je m'amusais à travailler avec <span>React</span>, <span>Next.js</span>, <span>WordPress</span>, et les solutions headless comme <span>Strapi</span>, toujours cherchant des moyens de rendre le web plus élégant et accessible.</p><br /><p>Mon parcours dans le développement a commencé il y a quelques années avec une fascination pour le fonctionnement des choses derrière les scènes sur le web. Au fil du temps, cette <span>curiosité</span> s'est transformée en <span>passion</span> et enfin en <span>carrière</span>. J'ai commencé par apprendre les bases par moi-même, puis j'ai exploré <span>les bonnes pratiques</span>, <span>les frameworks</span>, et j'ai constamment expérimenté avec de nouveaux outils pour affiner mon approche.</p><br /><p>En dehors du développement, j'ai un grand intérêt pour l'<span>histoire</span> et le <span>cinéma</span>. Je particulièrement apprécie les <span>jeux vidéo</span>, avec un penchant pour les jeux stratégiques et FPS. Les <span>sports</span> jouent également un rôle important dans ma vie : je pratique le running, le CrossFit et la natation pour rester actif et défier moi-même.</p>"
+  }
 ]

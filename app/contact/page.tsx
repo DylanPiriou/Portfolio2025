@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import React from 'react'
 import Heading from "../components/Heading";
 import Container from "../components/Container";
+import Contact from "../components/Contact";
+import contacts from '../data/contacts.json';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -14,9 +16,9 @@ export default function page() {
         <Heading content="Get in touch" />
         <Container>
           <ul className="flex flex-col gap-2.5 justify-center items-center">
-            <li className="flex items-end gap-2.5"><a href="mailto:pirioudylan@gmail.com" target="_blank" className="text-2xl font-bold hover:underline">pirioudylan@gmail.com</a></li>
-            <li className="flex items-end gap-2.5"><a href="https://github.com/dylanpiriou" target="_blank" className="text-2xl font-bold hover:underline">github.com/dylanpiriou</a></li>
-            <li className="flex items-end gap-2.5"><a href="https://linkedin.com/in/dylanpiriou" target="_blank" className="text-2xl font-bold hover:underline">linkedin.com/in/dylanpiriou</a></li>
+            {contacts.map((contact, index) => (
+              <Contact key={index} contact={contact} index={index} />
+            ))}
           </ul>
         </Container>
     </div>

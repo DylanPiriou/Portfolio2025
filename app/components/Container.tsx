@@ -8,7 +8,7 @@ export default function Container({ children }: { children: React.ReactNode }) {
     <motion.div
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
-        transition={{ duration: .6, delay: .1, ease: "easeOut" }}
+        transition={{ duration: 1, delay: .2, ease: "easeOut" }}
     >
         {children}
     </motion.div>
